@@ -2,11 +2,10 @@
 
 A command-line tool that reads a Linux `auth.log` and reports SSH credential attacks — brute force, password spraying, and successful logins that follow a run of failures — as a ranked, analyst-readable report.
 
-![tests](https://github.com/PiePop/ssh-log-triage/actions/workflows/tests.yml/badge.svg)
 
 ![Sample HTML report](docs/report-screenshot-one.png)
+!(Sample_HTML_report](docs/report-screenshot-two.png)
 
-> Replace `YOUR-USERNAME` above, and drop a screenshot of `docs/sample-report.html` at `docs/report-screenshot.png`.
 
 ## Quickstart
 
