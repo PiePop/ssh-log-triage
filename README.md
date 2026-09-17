@@ -4,7 +4,6 @@ A command-line tool that reads a Linux `auth.log` and reports SSH credential att
 
 
 ![Sample HTML report](docs/report-screenshot-one.png)
-!(Sample_HTML_report](docs/report-screenshot-two.png)
 
 
 ## Quickstart
