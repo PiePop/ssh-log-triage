@@ -1,0 +1,3 @@
+# Runtime: none. The tool uses only the Python standard library (3.9+).
+# Development only:
+pytest>=7.0

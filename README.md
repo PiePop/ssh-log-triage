@@ -4,9 +4,9 @@ A command-line tool that reads a Linux `auth.log` and reports SSH credential att
 
 ![tests](https://github.com/PiePop/ssh-log-triage/actions/workflows/tests.yml/badge.svg)
 
-![Sample HTML report](docs/report-screenshot-one.png)
-![And](docs/report-screenshot-two.png)
+![Sample HTML report](docs/report-screenshot.png)
 
+> Replace `YOUR-USERNAME` above, and drop a screenshot of `docs/sample-report.html` at `docs/report-screenshot.png`.
 
 ## Quickstart
 

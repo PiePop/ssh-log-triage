@@ -1,0 +1,12 @@
+# Never commit real authentication logs.
+*.log
+!samples/*.log
+*.log.gz
+
+out/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
