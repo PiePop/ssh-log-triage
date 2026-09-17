@@ -1,0 +1,5 @@
+severity,title,technique,source_ip,first_seen,last_seen,attempts,distinct_users,sample_users,detail
+high,Successful login after repeated failures,T1110,203.0.113.77,2026-03-10 09:05:00,2026-03-10 09:06:55,22,1,backup,Account 'backup' authenticated successfully after 22 failed attempts from this address within 300s. Treat this account as potentially compromised.
+medium,Brute-force authentication attempts,T1110,203.0.113.42,2026-03-10 07:12:00,2026-03-10 07:13:58,60,16,"admin, root, test, git, support",Peak of 31 failed logins within 60s (threshold 10); 60 failures in total.
+medium,Password spraying,T1110.003,198.51.100.23,2026-03-10 08:30:00,2026-03-10 08:53:15,32,16,"admin, root, test, user, oracle","16 distinct accounts tried with no more than 4 attempts each - low and slow, designed to stay under lockout thresholds."
+medium,Brute-force authentication attempts,T1110,203.0.113.77,2026-03-10 09:05:00,2026-03-10 09:06:55,22,1,backup,Peak of 13 failed logins within 60s (threshold 10); 22 failures in total.
